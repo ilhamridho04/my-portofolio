@@ -7,14 +7,6 @@ class CertificationController extends GetxController{
     false,
     false,
     false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
-    false,
   ].obs;
   onHover(int index,bool value){
     hovers[index]=value;
