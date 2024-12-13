@@ -13,13 +13,13 @@ class CombineSubtitleText extends StatelessWidget {
       children: [
         const Responsive(
           desktop: AnimatedSubtitleText(
-              start: 30, end: 40, text: 'Flutter '),
+              start: 30, end: 40, text: 'Backend '),
           largeMobile: AnimatedSubtitleText(
-              start: 30, end: 25, text: 'Flutter '),
+              start: 30, end: 25, text: 'Backend '),
           mobile: AnimatedSubtitleText(
-              start: 25, end: 20, text: 'Flutter '),
+              start: 25, end: 20, text: 'Backend '),
           tablet: AnimatedSubtitleText(
-              start: 40, end: 30, text: 'Flutter '),
+              start: 40, end: 30, text: 'Backend '),
         ),
         (kIsWeb && Responsive.isLargeMobile(context)
             ? const Responsive(
@@ -47,8 +47,8 @@ class CombineSubtitleText extends StatelessWidget {
             : ShaderMask(
           shaderCallback: (bounds) {
             return const LinearGradient(colors: [
-              Colors.pink,
-              Colors.blue,
+              Colors.cyan,
+              Colors.lightGreen,
             ]).createShader(bounds);
           },
           child: const Responsive(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 import '../../../res/constants.dart';
 import '../../../view model/responsive.dart';
@@ -42,12 +43,12 @@ class AnimatedImageContainerState extends State<AnimatedImageContainer>
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
               gradient: const LinearGradient(colors: [
-                Colors.pinkAccent,
-                Colors.blue,
+                Colors.cyan,
+                Colors.lightGreen,
               ]),
               boxShadow: const [
                 BoxShadow(
-                  color: Colors.pink,
+                  color: Colors.blue,
                   offset: Offset(-2, 0),
                   blurRadius: 20,
                 ),
@@ -64,8 +65,8 @@ class AnimatedImageContainerState extends State<AnimatedImageContainer>
                 color: Colors.black,
                 borderRadius: BorderRadius.circular(30),
               ),
-              child: Image.asset(
-                'assets/images/image.png',
+              child: SvgPicture.asset(
+                'assets/icons/mikmobile.svg',
                 height: Responsive.isLargeMobile(context)
                     ? MediaQuery.sizeOf(context).width * 0.2
                     : Responsive.isTablet(context)

@@ -12,7 +12,7 @@ class ConnectButton extends StatelessWidget {
       padding:  const EdgeInsets.symmetric(vertical: defaultPadding),
       child: InkWell(
         onTap: () {
-          launchUrl(Uri.parse('https://wa.me/03054200605'));
+          launchUrl(Uri.parse('https://wa.me/6285771116774'));
         },
         borderRadius: BorderRadius.circular(defaultPadding +10),
         child: Container(
@@ -21,12 +21,12 @@ class ConnectButton extends StatelessWidget {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(defaultPadding),
               gradient: LinearGradient(colors: [
-                Colors.pink,
-                Colors.blue.shade900,
+                Colors.cyan,
+                Colors.lightGreen.shade900,
               ]),
             boxShadow:const [
               BoxShadow(color: Colors.blue,offset: Offset(0, -1),blurRadius: defaultPadding/4),
-              BoxShadow(color: Colors.red,offset: Offset(0, 1),blurRadius: defaultPadding/4),
+              BoxShadow(color: Colors.deepPurple,offset: Offset(0, 1),blurRadius: defaultPadding/4),
             ]
           ),
           child: Row(
