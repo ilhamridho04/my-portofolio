@@ -11,7 +11,7 @@ class AnimatedLoadingText extends StatelessWidget {
       child: TweenAnimationBuilder(duration: const Duration(seconds: 2),builder: (context, value, child) => Column(
         children: [
           LinearProgressIndicator(
-            backgroundColor: Colors.black,
+            backgroundColor: Colors.deepPurpleAccent.withOpacity(0.5),
             color: Colors.deepPurpleAccent,
             value: value,
           ),
