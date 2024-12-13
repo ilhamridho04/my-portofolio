@@ -11,7 +11,7 @@ List<Project> projectList = [
   Project(
     'Mikrotik Laravel',
     'Mikrotik Laravel is a web application that allows you to manage your Mikrotik router with ease. A comprehensive system for managing MikroTik networks with Laravel, Node.js (Express.js), Rsyslog, and Midtrans payment gateway integration.',
-    ['images/mikrotik-laravel/login.png', 'images/mikrotik-laravel/dashboard-2.png', 'images/mikrotik-laravel/dashboard-6.png', 'images/mikrotik-laravel/panel-1.png', 'images/mikrotik-laravel/panel-2.png'],
+    ['assets/images/mikrotik-laravel/login.png', 'assets/images/mikrotik-laravel/dashboard-2.png', 'assets/images/mikrotik-laravel/dashboard-6.png', 'assets/images/mikrotik-laravel/panel-1.png', 'assets/images/mikrotik-laravel/panel-2.png'],
     'https://github.com/ilhamridho04/mikrotik-laravel/wiki',
   ),
 ];
