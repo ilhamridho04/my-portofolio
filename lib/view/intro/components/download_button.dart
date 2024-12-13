@@ -10,7 +10,7 @@ class DownloadButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        launchUrl(Uri.parse('https://drive.google.com/file/d/1HSIe7rdk8VtrAL4DQuybfMHQgDrQ6xNs/view?usp=sharing'));
+        launchUrl(Uri.parse('https://wa.me/6285771116774?text=Hi%20Ilham,%20I%20want%20to%20download%20your%20CV'));
       },
       child: Container(
         alignment: Alignment.center,
@@ -32,7 +32,7 @@ class DownloadButton extends StatelessWidget {
         child: Row(
           children: [
             Text(
-              'Download CV',
+              'View CV',
               style: Theme.of(context).textTheme.labelSmall!.copyWith(
                   color: Colors.white,
                   letterSpacing: 1.2,
@@ -40,7 +40,6 @@ class DownloadButton extends StatelessWidget {
             ),
             const SizedBox(width: defaultPadding/3,),
             const Icon(FontAwesomeIcons.download,color: Colors.white70,size: 15,)
-
           ],
         ),
       ),
