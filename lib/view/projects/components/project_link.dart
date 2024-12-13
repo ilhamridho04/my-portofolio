@@ -21,7 +21,7 @@ class ProjectLinks extends StatelessWidget {
         TextButton(
             onPressed: () {
               launchUrl(Uri.parse(projectList[index].link));
-            }, child: const Text('Read More>>',overflow: TextOverflow.ellipsis,style: TextStyle(color: Colors.amber,fontWeight: FontWeight.bold,fontSize: 10),))
+            }, child: const Text('Read More>>',overflow: TextOverflow.ellipsis,style: TextStyle(color: Colors.amberAccent,fontWeight: FontWeight.bold,fontSize: 10),))
       ],
     );
   }

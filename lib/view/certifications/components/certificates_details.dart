@@ -78,7 +78,7 @@ class CertificateStack extends StatelessWidget {
                         ),
                         boxShadow:const [
                           BoxShadow(color: Colors.blue,offset: Offset(0, -1),blurRadius: 5),
-                          BoxShadow(color: Colors.red,offset: Offset(0, 1),blurRadius: 5),
+                          BoxShadow(color: Colors.deepPurple,offset: Offset(0, 1),blurRadius: 5),
                         ]
                     ),
                     child: const Row(

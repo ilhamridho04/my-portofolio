@@ -19,14 +19,14 @@ class DownloadButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(20),
             boxShadow:const [
               BoxShadow(color: Colors.blue,offset: Offset(0, -1),blurRadius: 5),
-              BoxShadow(color: Colors.red,offset: Offset(0, 1),blurRadius: 5),
+              BoxShadow(color: Colors.deepPurple,offset: Offset(0, 1),blurRadius: 5),
             ],
           gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Colors.pink,
-                Colors.blue.shade900,
+                Colors.cyan,
+                Colors.lightGreen.shade900,
               ]),
         ),
         child: Row(

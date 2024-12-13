@@ -53,7 +53,7 @@ class AnimatedImageContainerState extends State<AnimatedImageContainer>
                   blurRadius: 20,
                 ),
                 BoxShadow(
-                  color: Colors.blue,
+                  color: Colors.deepPurple,
                   offset: Offset(2, 0),
                   blurRadius: 20,
                 ),

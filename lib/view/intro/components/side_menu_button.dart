@@ -34,7 +34,7 @@ class MenuButton extends StatelessWidget {
                   child: ShaderMask(
                     shaderCallback: (bounds) {
                       return LinearGradient(
-                              colors: [Colors.pink, Colors.blue.shade900])
+                              colors: [Colors.cyan, Colors.lightGreen.shade900])
                           .createShader(bounds);
                     },
                     child: Icon(
